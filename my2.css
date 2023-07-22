@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: 'Belanosima', sans-serif;
+     
+}
+.Outer-box{
+     width: 100vw;
+     height: 100vh;
+     background: linear-gradient(to top left,#565656,#060606);
+}
+.Inner-box{
+     width: 400px;
+     margin: 0 auto;
+     position: relative;
+     top: 0%;
+     transform: translateY(20%);
+     padding: 20px 40px;
+     background-color: #b6c4cfe5 ; 
+     /* background: linear-gradient(to top left, #2cc6d7,#e6eaeb);*/
+     border-radius: 20px; 
+     box-shadow: 5px 5px 10px black;
+     backdrop-filter: blur(8px);
+}
+.Signup-header{
+     font-size: large;
+     color:rgba(6, 6, 0, 0.881);
+}
+.Signup-body{
+     margin: 20px 0;
+}
+.Signup-body p {
+     margin: 5px 0;
+}
+.Signup-body p label{
+      display: contents;
+      color: black;
+      font-size: large;
+}
+.Signup-body p input{
+     height: 30px;
+     padding: 10px;
+     border: 2px solid ;
+     border-radius: 5px;
+     font-size: medium;
+     text-align: center;
+     background-color: #021720;
+     
+     
+
+}
+.Signup-body p button{
+     height: 40px;
+     padding: 10px;
+     width: 320px;
+     border-radius: 5px;
+     background-color: #6c6ef4;
+     border: none;
+     cursor: pointer;
+     text-align: center;
+     color: rgb(214, 231, 240);
+     font-size: medium;
+     
+}
+.Signup-body p button :hover{
+     color: black;
+}
+
+.Signup-footer p{
+     color: black;
+     text-align: center;
+}
+.Signup-footer p a{
+     color: rgb(5, 5, 162);
+}
+.Signup-footer article{
+     color: black;
+}
+.button {
+     max-width: 600px;
+     display: flex;
+     padding: 0.5rem 1.4rem;
+     font-size: 0.875rem;
+     line-height: 1.25rem;
+     font-weight: 700;
+     text-align: center;
+     text-transform: uppercase;
+     vertical-align: middle;
+     align-items: center;
+     
+     border-radius: 0.5rem;
+     border: 1px solid rgba(0, 0, 0, 0.25);
+     gap: 0.75rem;
+     color: rgb(65, 63, 63);
+     background-color: #fff;
+     cursor: pointer;
+     transition: all .6s ease;
+   }
+   
+.button svg {
+     height: 24px;
+   }
+   
+.button:hover {
+     transform: scale(1.02);
+   }
+ 
